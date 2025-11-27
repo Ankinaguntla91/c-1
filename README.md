@@ -1,10 +1,12 @@
-# c-1
-Program to add 2 members 
+
 #include<stdio.h>
 int main()
 {
-int a=10,b=20,c;
-c=a+b;
-printf(%d,c);
+int a=15,b=10,temp;
+//swapping values of a and b
+temp=a;
+a=b;
+b=temp;
+printf ("a=%d,b=%d\n",a,b);
 return 0;
 }
